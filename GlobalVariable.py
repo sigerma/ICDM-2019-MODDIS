@@ -1,0 +1,15 @@
+EVALUATION_FILE_NAME = 'result/evaluation_zoo.txt'
+VIEW_NUM = 2
+DATA_NAME = 'zoo'
+LEARNING_RATE_BASE=0.5
+LEARNING_RATE_DECAY=0.99
+outlier_percent = 0.05
+beta = 3
+LAYER2_NODE = 30
+k_nearest = 1
+TRAINING_STEPS = 80
+LAYER1_NODE = 80
+LAYER3_NODE = 80
+alpha = gl.VIEW_NUM
+batch_size = 256
+MOVING_AVERAGE_DECAY=0.99
